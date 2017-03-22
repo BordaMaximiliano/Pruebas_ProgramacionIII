@@ -6,12 +6,20 @@
     $promedio=0;
     //echo rand() . "\n"; 
     //$array =  array( rand(1,10), rand(1,10), rand(1,10), rand(1,10), rand(1,10) );
-       
+    /*   
     $array[0]= rand(1,10);
     $array[1]= rand(1,10);
     $array[2]= rand(1,10);
     $array[3]= rand(1,10);
     $array[4]= rand(1,10);
+    */
+
+    $array = array();
+    
+    for($i=0 ; $i<= 4; $i++ ){
+        array_push($array, rand(1,10));
+    }
+    
     //var_dump($array) . "<br>";
 
     for($i=0 ; $i< count($array); $i++ ){
