@@ -1,6 +1,6 @@
 <?php
 
- class calculadora{
+class calculadora{
 
 /*
 static function sumar($num1,$num2)
