@@ -21,11 +21,12 @@
 
         protected function calcularDatos($altura,$base){
             $lado=0;
+            //la funcion sqrt se utiliza para sacar la raiz cuadrada.
             $lado= sqrt(($base/2)*($base/2)) + ($altura*$altura) ;
             $this->_perimetro =  $base + (2 * $lado)  ;
 
             
-            $this->_superficie = ($altura * $base) / 2 ; //Base por altura.
+            $this->_superficie = ($altura * $base) / 2 ; //Base por altura sobre 2.
             //echo "El perimetro del rectangulo es de: " . $this->_perimetro . "<br>";
             //echo "La superficie de un rectangulo es de :" . $this->_superficie;
         }
