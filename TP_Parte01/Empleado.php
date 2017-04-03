@@ -13,8 +13,9 @@
             //Se llama al constructor de la clase base 
             //para inicializar todas las variables.
             parent::__construct($nombre, $apellido, $dni, $sexo);
+            echo "entro al constructor hijo<br>" . $apellido;
         }
-
+       
         //Declaracion del destructor
         public function __destruct(){
             echo "entro al destructor hijo<br>";

@@ -15,6 +15,7 @@
             $this->apellido=$apellido;
             $this->dni=$dni;
             $this->sexo=$sexo;
+            echo "entro al constructor padre<br>";
 
         }
 
