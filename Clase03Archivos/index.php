@@ -20,5 +20,8 @@
     $empleado = new empleado("PEDRO", "PEREIRA", 23456789, "Masculino");
     $fabrica->agregarEmpleado($empleado);
 
+    $fabrica->guardarFabrica();
+    $fabrica->obtenerEmpleArchivo();
+
 
 ?>
