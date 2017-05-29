@@ -1,0 +1,44 @@
+fecha: 29/05/2017
+
+COMPOUSER
+https://getcomposer.org/ 
+permite tener varios frameworks , 
+primero vamos a ver el frameworks para conectarnos con una base de datos
+
+vamos a hacer un API rest: (slim) (http://www.jc-mouse.net/proyectos/crea-un-servicio-web-rest-con-php-y-mysql)
+vamos a tener el archivo html que lo recargaremos a travez de un js, eso es los que hoy dia hacemos.
+
+no podremos utilizar variables de sesiones.
+
+instalar compuoser:
+https://getcomposer.org/download/
+
+instalar slim (api rest)
+https://www.slimframework.com/docs/start/installation.html
+Instalar carpeta VENDOR
+en CMD  vamos a la carpeta rasiz del projecto con el cmd y ejecutamos esto: composer require slim/slim "^3.0"
+
+
+ruta donde obtendremos info de nuestro primero proyecto 
+https://www.slimframework.com/docs/tutorial/first-app.html
+
+
+Para probar un api rest:
+Inicio => ejecutar => postman
+
+
+
+Datos adicionales:
+
+Apache configuration
+Ensure your .htaccess and index.php files are in the same public-accessible directory. The .htaccess file should contain this code:
+
+Ejercicio:
+1) abrimos y nos traemos el proyecto Ejemplo Ajax de octavio villegas https://github.com/octaviovillegas y debemos agregarle un servicio de api rest al proyecto.
+repositorio : https://github.com/octaviovillegas/EjemploAjax.git
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
