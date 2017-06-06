@@ -1,0 +1,9 @@
+
+En la pagina http://help.slimframework.com/discussions/questions/258-multiple-file-upload-with-slim-framework
+explica aproximadamente lo que hay que hacer para multiple subida de archivos.
+
+esto no se que es:
+https://github.com/slimphp/Slim-Http/blob/master/src/UploadedFile.php
+
+ejemplo codigo:
+https://akrabat.com/psr-7-file-uploads-in-slim-3/
